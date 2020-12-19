@@ -8,7 +8,7 @@
 
 
 * logrank test for two or more groups;
-proc import datafile="/folders/myfolders/Project1/all_tert_buc.csv" 
+proc import datafile="/folders/myfolders/Project1/BST222_Project1/all_tert_buc.csv" 
 out=mydata_buc dbms=csv replace;
 datarow=2;
 getnames=yes;
